@@ -27,7 +27,7 @@ class Form extends Component {
     let data =[];
     let rePass = e.target[4].value;
 
-    error += firstName.length <= 3 ? data.push('Length of first name is too small.'): '';
+    error += firstName.length <= 2 ? data.push('Length of first name is too small.'): '';
     error += secondName.length <= 3 ? data.push('Length of second name is too small.') : '';
     error += pass.length <= 3 ? data.push('Length of password name is too small.') : '';
     error += pass !== rePass ? data.push('Passwords are different.') : '';

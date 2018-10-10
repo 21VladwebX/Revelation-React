@@ -1,5 +1,6 @@
 .Currency table{
   margin: 0 auto;
+  margin-bottom: 15px;
 }
 thead{
   text-transform: capitalize;
