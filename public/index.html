@@ -1,40 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link rel="stylesheet" href="styles/main.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/slider.js"></script>
   </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
+    <div class="container-toolbar">
+      <div class="container-content">
+        <header>
+          <div class="toolbar-top__line">
+            <div class="toolbar-top__line-content"><a href="#">Sign Up</a><a href="#">Login</a><a href="#">RSS Feeds</a><a href="#">Archived News</a></div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div class="container-header">
+      <div class="container-content">
+        <div class="header">
+          <div class="header-content">
+            <div class="header-content__logo"><img src="./images/logo.png"></div>
+            <div class="header-content__nav">
+              <ul>
+                <li><a href="#">homepage</a></li>
+                <li><a href="#">style demo</a></li>
+                <li><a href="#">full width</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">dropdown</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-slides">
+      <div class="container-content">
+        <div class="slider">
+          <div class="slider-sliders">
+            <div class="slider-sliders__content">
+              <div class="slider-sliders__content-left"><img src="./images/screen.png" title="Gena"></div>
+              <div class="slider-sliders__content-right">
+                <h2>a catchy title</h2><span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The readable content of a page when looking at its layout.</span><a href="#">read more »</a>
+              </div>
+            </div>
+          </div>
+          <div class="slider-toolbar"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container-services">
+      <div class="container-content">
+        <div class="services">
+          <div class="services-row">
+            <div class="services-row__clm">
+              <div class="services-row__clm-top"><img src="./images/smallScreen.png" alt="64x64" title="Чебуратор"><span>Rehbk nhfde repytxbr</span></div>
+              <div class="services-row__clm-text"><span>It is a long established fact that a reader will be distracted by the readable content of a page when.</span></div>
+            </div>
+            <div class="services-row__clm">
+              <div class="services-row__clm-top"><img src="./images/smallScreen.png" alt="64x64" title="Чебуратор"><span>Rehbk nhfde repytxbr</span></div>
+              <div class="services-row__clm-text"><span>It is a long established fact that a reader will be distracted by the readable content of a page when.</span></div>
+            </div>
+            <div class="services-row__clm">
+              <div class="services-row__clm-top"><img src="./images/smallScreen.png" alt="64x64" title="Чебуратор"><span>Rehbk nhfde repytxbr</span></div>
+              <div class="services-row__clm-text"><span>It is a long established fact that a reader will be distracted by the readable content of a page when.</span></div>
+            </div>
+            <div class="services-row__clm">
+              <div class="services-row__clm-top"><img src="./images/smallScreen.png" alt="64x64" title="Чебуратор"><span>Rehbk nhfde repytxbr</span></div>
+              <div class="services-row__clm-text"><span>It is a long established fact that a reader will be distracted by the readable content of a page when .</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div class="container-shout">
+      <div class="container-content">
+        <div class="shout"><span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</span></div>
+      </div>
+    </div>
+    <div class="container-latest">
+      <div class="container-content">
+        <div class="latestWork">
+          <div class="latestWork__block">
+            <div class="latestWork__block-title"><span>Indonectetus facilis</span></div>
+            <div class="latestWork__block-img"><img src="./images/lowScreen.png" alt="225x140px"></div>
+            <div class="latestWork__block-text"><span>It is a long established fact that a reader will be distracted by the readable content.</span></div>
+            <div class="latestWork__block-readMore"><a href="#">Read More »</a></div>
+          </div>
+          <div class="latestWork__block">
+            <div class="latestWork__block-title"><span>Indonectetus facilis</span></div>
+            <div class="latestWork__block-img"><img src="./images/lowScreen.png" alt="225x140px"></div>
+            <div class="latestWork__block-text"><span>It is a long established fact that a reader will be distracted by the readable content.</span></div>
+            <div class="latestWork__block-readMore"><a href="#">Read More »</a></div>
+          </div>
+          <div class="latestWork__block">
+            <div class="latestWork__block-title"><span>Indonectetus facilis</span></div>
+            <div class="latestWork__block-img"><img src="./images/lowScreen.png" alt="225x140px"></div>
+            <div class="latestWork__block-text"><span>It is a long established fact that a reader will be distracted by the readable content.</span></div>
+            <div class="latestWork__block-readMore"><a href="#">Read More »</a></div>
+          </div>
+          <div class="latestWork__block">
+            <div class="latestWork__block-title"><span>Indonectetus facilis</span></div>
+            <div class="latestWork__block-img"><img src="./images/lowScreen.png" alt="225x140px"></div>
+            <div class="latestWork__block-text"><span>It is a long established fact that a reader will be distracted by the readable content.</span></div>
+            <div class="latestWork__block-readMore"><a href="#">Read More »</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-footer">
+      <div class="container-content">
+        <footer>
+          <div class="footer">
+            <div class="footerLeft">
+              <div class="footerLeft__block"><span class="title">Latest From Blog</span>
+                <div class="footerLeft__block-title"><span>Post Title</span><span>Friday, 6th April 2000</span></div>
+                <div class="footerLeft__block-text"><span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters. it has a more-or-less normal distribution of letters.</span></div>
+              </div>
+              <div class="footerLeft__block"><span class="title">Link Block</span>
+                <ul>
+                  <li> <a href="#">Lorem Ipsum</a></li>
+                  <li> <a href="#">Lorem Ipsum</a></li>
+                  <li> <a href="#">Lorem Ipsum</a></li>
+                  <li> <a href="#">Lorem Ipsum</a></li>
+                  <li> <a href="#">Lorem Ipsum</a></li>
+                  <li> <a href="#">Lorem Ipsum</a></li>
+                  <li> <a href="#">Lorem Ipsum</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footerRight">
+              <div class="footerRight__block"><span class="title">Company Details</span>
+                <ul>
+                  <li> Company Name</li>
+                  <li> Street Name & Number</li>
+                  <li> Line Two</li>
+                  <li> Town</li>
+                  <li> Postcode</li>
+                </ul>
+                <div class="footerRight__block-text"><span>Tel: xxxxx xxxxxxxxxx</span><span>Fax: xxxxx xxxxxxxxxx</span><span>Email: </span><span class="email">contact@mydomain.com</span></div>
+              </div>
+              <div class="footerRight__block"><span class="title">Newsletter</span>
+                <form action="#" method="post">
+                  <input type="text" name="name" placeholder="Name">
+                  <input type="text" name="email" placeholder="Email">
+                  <button type="submit">submit</button>
+                </form>
+                <div class="footerRight__block-soc"><a href="#"><img src="./images/facebook-logo.png"></a><a href="#"><img src="./images/linkedin-logo.png"></a><a href="#"><img src="./images/twitter-letter-logo.png"></a><a href="#"><img src="./images/twitter-logo.png"></a><a href="#"><img src="./images/whatsapp-logo.png"></a></div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
   </body>
 </html>

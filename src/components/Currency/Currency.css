@@ -1,0 +1,6 @@
+.Currency table{
+  margin: 0 auto;
+}
+thead{
+  text-transform: capitalize;
+}
